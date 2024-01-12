@@ -3,7 +3,7 @@ const QRCode = require('qrcode')
 
 module.exports.createQR = async (req, res) => {
 
-    const url = 'www.everythingsouthafrican.com'
+    const url = 'www.ghgossip.com'
 
 
     QRCode.toDataURL(url, (err, qrCodeURL)=>{
